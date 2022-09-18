@@ -1,0 +1,29 @@
+/* typography */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* functions */ /* variables */ /* home */
+body {
+  background-color: #b3faff;
+  width: min(100% - 2rem, 60ch);
+  margin-inline: auto;
+  margin-block: 4rem;
+  padding: 2rem;
+  border-style: dotted;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  font-family: 'combo';
+}
+
+h1 {
+  color: #180037;
+  text-align: center;
+}
+
+/* main */
