@@ -1,31 +1,12 @@
-# IDMX 11ty Sass Starter
+# Poem-Site
 
-The set of development scripts in this starter is configured to watch and compile a simple Sass structure using 11ty.
+The poem-site is an updated version of the poem-page project. The 
+Poem-Site includes feedback from the last project as well as 
+changing some elements of CSS to make the poem webpage look cleaner 
+and more responsive to smaller screen sizes. The poem used in this webpage is **Hope is the thing with feathers** by *Emily Dickinson*. The image included in this webpage is by *Pedro Vit*.
 
-The code is located in the `src` folder and the page is created in the `public` folder.
-
-The `settings.json` in the `.vscode` folder sets the `LiveServer` configuration to serve from the `public` folder and can be used to serve the built page.
-
-The build process includes minifiying and autoprefixing of styles via the `postbuild` script, which runs automatically after a `build`.
-
-## Installation
-
-**`npm install`**
-
->Run this command once to install the needed node modules.
-
-## Development Scripts
-
-**`npm start`**
-
-> This script runs 11ty with hot reload and served at the url localhost:8080. It will reload whenever there are HTML or Sass changes.
-
-**`npm run build`**
-
-> This script does a production build and includes minified, autoprefixed CSS.
-
-Use this as the "Publish command" if needed by hosting services such as Netlify.
-
-## Resources
+## Resources 
+Dickinson, E., 1830. Hope is the thing with feathers (254) by Emily Dickinson - Poems | poets.org. [online] Poets.org. Available at: <https://poets.org/poem/hope-thing-feathers-254> [Accessed 12 September 2022].
+Vit, P., 2020. [Photograph].
 
 <small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
